@@ -474,7 +474,7 @@ section {
   width: 85%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+.about-stats .progress-bars .progress-bar .progress-con .progress .pyhton {
   width: 95%;
 }
 
@@ -491,7 +491,15 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .promptengr {
-  width: 70%;
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .llm {
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .vectordb {
+  width: 85%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .bigdata {
@@ -547,7 +555,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .teamlead {
-  width: 75%;
+  width: 80%;
 }
 
 
