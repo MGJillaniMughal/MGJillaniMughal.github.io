@@ -67,9 +67,9 @@ section {
   padding: 3rem 18rem;
 }
 .schedule-call-btn {
-  position: absolute; /* Fixed position to stay in place during scrolling */
+  position: Fixed; /* absolute or Fixed position to stay in place during scrolling */
   top: 20px; /* 20px from the top */
-  right: 170px; /* 20px from the right side */
+  right: 150px; /* 20px from the right side */
   background-color: var(--color-grey-4);
   color: white; /* White text color */
   padding: 10px 20px; /* Padding inside the button */
