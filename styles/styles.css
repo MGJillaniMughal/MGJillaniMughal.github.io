@@ -66,6 +66,24 @@ section {
   top: 0;
   padding: 3rem 18rem;
 }
+.schedule-call-btn {
+  position: absolute; /* Fixed position to stay in place during scrolling */
+  top: 20px; /* 20px from the top */
+  right: 250px; /* 20px from the right side */
+  background-color: var(--color-grey-4);
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding inside the button */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners for aesthetics */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.schedule-call-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
 
 .section {
   -webkit-transform: translateY(-100%) scale(0);
