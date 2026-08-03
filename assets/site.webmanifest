@@ -1,0 +1,13 @@
+{
+  "name": "Muhammad Ghulam Jillani — Jillani SofTech",
+  "short_name": "Jillani SofTech",
+  "description": "Enterprise AI engineering: RAG systems, LLM copilots, multi-agent architectures, n8n automation and MLOps.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05070f",
+  "theme_color": "#05070f",
+  "icons": [
+    { "src": "og-cover.png", "sizes": "1200x630", "type": "image/png", "purpose": "any" }
+  ]
+}
