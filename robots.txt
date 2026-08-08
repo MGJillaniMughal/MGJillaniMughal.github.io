@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Crawlers should not spend budget on the error page
+Disallow: /404.html
+
 Sitemap: https://mgjillanimughal.github.io/sitemap.xml

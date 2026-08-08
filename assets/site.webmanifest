@@ -1,13 +1,19 @@
 {
-  "name": "Muhammad Ghulam Jillani — Jillani SofTech",
+  "name": "Muhammad Ghulam Jillani, Jillani SofTech",
   "short_name": "Jillani SofTech",
   "description": "Enterprise AI engineering: RAG systems, LLM copilots, multi-agent architectures, n8n automation and MLOps.",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#05070f",
   "theme_color": "#05070f",
   "icons": [
-    { "src": "og-cover.png", "sizes": "1200x630", "type": "image/png", "purpose": "any" }
+    { "src": "/assets/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/assets/favicon-96x96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

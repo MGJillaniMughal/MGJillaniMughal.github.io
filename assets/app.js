@@ -1,5 +1,5 @@
 /* =============================================================================
-   Jillani SofTech — multi-page portfolio
+   Jillani SofTech, multi-page portfolio
    Shared behaviour for index / about / services / work / contact / 404
    ========================================================================== */
 const RM = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
@@ -247,7 +247,7 @@ document.querySelectorAll('.count').forEach(el => cntObs.observe(el));
         if (!n && !msg) {
           msg = document.createElement('p');
           msg.id = 'pf-empty'; msg.className = 'ssub';
-          msg.textContent = 'No projects in this category yet — try another filter.';
+          msg.textContent = 'No projects in this category yet. Try another filter.';
           grid.parentNode.insertBefore(msg, grid.nextSibling);
         }
         if (msg) msg.style.display = n ? 'none' : 'block';
@@ -379,7 +379,7 @@ document.querySelectorAll('[data-copy]').forEach(b => {
       b.textContent = 'Copied';
       toast(text + ' copied to your clipboard', 'good');
       setTimeout(() => { b.textContent = orig; }, 2000);
-    } catch (e) { toast('Copy failed — the address is ' + text, 'bad'); }
+    } catch (e) { toast('Copy failed. The address is ' + text, 'bad'); }
   });
 });
 
@@ -406,7 +406,7 @@ document.querySelectorAll('[data-copy]').forEach(b => {
     setErr('em', ''); setErr('msg', '');
     if (!em) { setErr('em', 'Add an email address so I can reply.'); first = first || 'em'; }
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em)) { setErr('em', 'That email address looks incomplete.'); first = first || 'em'; }
-    if (msg.length < 20) { setErr('msg', 'Tell me a bit more — 20 characters or more helps me reply usefully.'); first = first || 'msg'; }
+    if (msg.length < 20) { setErr('msg', 'Tell me a bit more. 20 characters or more helps me reply usefully.'); first = first || 'msg'; }
     return first;
   };
 
@@ -431,7 +431,7 @@ document.querySelectorAll('[data-copy]').forEach(b => {
 
     window.location.href = 'mailto:m.g.jillani@jillanisoftech.com?subject=' + sub + '&body=' + body;
 
-    btn.innerHTML = '✅ Brief ready in your email app';
+    btn.innerHTML = '<i class="fas fa-circle-check"></i> Brief ready in your email app';
     btn.classList.add('ok');
     btn.disabled = true;
     toast('Your email app should be opening. Nothing happened? Copy the address below.', 'good');
