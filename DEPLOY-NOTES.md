@@ -107,7 +107,7 @@ Person schema on all 16 pages. The recognition card links to
 ## 8. WhatsApp, and a broken icon bug worth understanding
 Every WhatsApp link on the site now uses your format:
 
-    https://wa.me/923211179584?text=Hi%2C%20I%20am%20interested%20in%20your%20AI...
+    https://wa.me/15014202439?text=Hi%2C%20I%20am%20interested%20in%20your%20AI...
 
 Buttons read **Chat on WhatsApp** with the brand icon.
 
